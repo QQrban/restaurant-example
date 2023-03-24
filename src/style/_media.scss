@@ -53,13 +53,60 @@
     }
 }
 
+@media (max-width: 752px) {
+    .menu-item-name {
+        h4 {
+            font-size: 19px;
+        }
+
+        p {
+            font-size: 13px;
+            max-width: 250px;
+        }
+    }
+}
+
 @media (max-width: 500px) {
     .home {
         padding-top: 150px;
     }
+
+    .menu-item-name {
+        p {
+            font-size: 13px;
+            max-width: 130px;
+        }
+    }
+
+    .menu-item-price {
+        &::before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 1px;
+            background-color: $color-gold;
+            left: -50px;
+            top: 50%;
+        }
+    }
+}
+
+@media (max-width: 404px) {
+    .menu-item-name {
+        h4 {
+            max-width: 130px;
+        }
+
+        p {
+            font-size: 13px;
+            max-width: 130px;
+        }
+    }
 }
 
 @media (max-width: 365px) {
+
+
     .home {
         h1 {
             font-size: 70px;

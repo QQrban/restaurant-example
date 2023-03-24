@@ -3,6 +3,11 @@ import salmon from '../../img/photo/home-salmon.jpg'
 import { motion } from 'framer-motion';
 
 const Home = () => {
+
+    const scrollToId = () => {
+        document.getElementById('menu').scrollIntoView();
+    }
+
     return (
         <section id='home' className='home'>
             <motion.div
@@ -19,7 +24,7 @@ const Home = () => {
                         <div className="home-subtitle subtitle">Chase the new flavour</div>
                         <h1>THE KEY TO FINE DINING</h1>
                         <p>Sit Tellus Lobortis Sed Senectus Vivamus Molestie. Condimentum Volutpat Morbi Facilisis Quam Scelerisque Sapien. Et, Penatibus Aliquam Amet Tellus</p>
-                        <button className='btn-all'>Explore Menu</button>
+                        <button onClick={() => scrollToId()} className='btn-all'>Explore Menu</button>
                     </div>
                     <div className="home-right-block">
                         <img src={salmon} alt="salmon" />
