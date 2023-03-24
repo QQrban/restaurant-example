@@ -1,0 +1,20 @@
+@import 'variables';
+
+.menu {
+    background: $color-dark;
+    padding-top: 50px;
+
+
+    &-subtitle {
+        color: $color-white;
+    }
+
+    h2 {
+        margin-top: 20px;
+        color: $color-gold;
+        font-family: $font-beauty;
+        text-transform: capitalize;
+        font-size: 52px;
+        font-weight: 700;
+    }
+}

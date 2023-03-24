@@ -1,0 +1,37 @@
+@import 'variables';
+
+.subtitle {
+    font-size: 20px;
+    font-family: $font-beauty;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 65px;
+        height: 2px;
+        background-color: $color-gold;
+        bottom: -5px;
+    }
+}
+
+.btn-all {
+    background-color: rgb(245, 239, 219);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: $font-beauty;
+
+    &:hover {
+        background-color: darken(rgb(245, 239, 219), 9%);
+    }
+
+    &:active {
+        box-shadow: inset -2px -2px 2px rgb(104, 100, 87);
+    }
+}

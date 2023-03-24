@@ -1,0 +1,25 @@
+@import 'variables';
+
+.navbar {
+    background-color: $color-dark;
+    box-shadow: 0 2px black;
+
+    &-brand {
+        font-family: $font-beauty;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    &-nav {
+        a {
+            font-family: $font-beauty;
+            font-size: 24px;
+            color: $color-white;
+        }
+    }
+
+}
+
+
+// @import 'media';

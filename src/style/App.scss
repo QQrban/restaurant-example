@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'config';
+@import 'header';
+@import 'home';
+@import 'about';
+@import 'menu';
+
+html,
+body {
+    font-family: $font-primary;
+    font-weight: 400;
+}
+
+@import 'media';
