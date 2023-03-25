@@ -14,7 +14,22 @@
     }
 
     .home-container {
-        padding: 20px !important;
+        padding: 0px 20px 40px 20px !important;
+    }
+
+    .chef-container {
+        // justify-content: center;
+        gap: 30px;
+    }
+
+    .chef-right-block {
+        max-width: 600px;
+    }
+}
+
+@media (max-width:1170px) {
+    .chef-container {
+        justify-content: center;
     }
 }
 
