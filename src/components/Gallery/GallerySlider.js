@@ -5,8 +5,6 @@ import dish3 from "../../img/photo/slider-dish-3.jpg";
 import dish4 from "../../img/photo/slider-dish-4.jpg";
 import dish5 from "../../img/photo/slider-dish-5.jpg";
 import dish6 from "../../img/photo/slider-dish-6.jpg";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { IconContext } from "react-icons";
 
 const GallerySlider = () => {
 
@@ -45,13 +43,6 @@ const GallerySlider = () => {
             <Slider {...settings}>
                 {dishes.map(dish => (
                     <div className="slider-item" key={dish}>
-                        <div className="insta">
-                            <IconContext.Provider
-                                value={{ color: 'white', size: '40px' }}
-                            >
-                                <AiOutlineInstagram />
-                            </IconContext.Provider>
-                        </div>
                         <img src={dish} alt="dish" />
                     </div>
                 ))}

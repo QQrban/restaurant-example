@@ -1,0 +1,94 @@
+@import 'variables';
+
+.footer {
+    padding: 50px 0 10px 0;
+    background: url(../img/bg/background.png);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+
+    &-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-contact-us {
+        h4 {
+            color: $color-white;
+            font-family: $font-beauty;
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 1.1px;
+        }
+
+        .info-city {
+            color: $color-white;
+            margin-top: 25px;
+        }
+
+        .info-tel {
+            color: $color-white;
+        }
+    }
+
+    &-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+        text-align: center;
+
+        h2 {
+            color: $color-white;
+            letter-spacing: 2px;
+            font-size: 65px;
+        }
+
+        p {
+            color: $color-white;
+            letter-spacing: 1.1px;
+        }
+
+        .spoon {
+            color: $color-gold;
+            transform: rotate(-45deg);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+
+            .link {
+                color: $color-white;
+
+                &:hover {
+                    color: rgb(199, 207, 214)
+                }
+            }
+        }
+    }
+
+    &-book {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            color: $color-white;
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            font-family: $font-beauty;
+        }
+
+        button {
+            margin-top: 30px;
+        }
+    }
+
+    &-rights {
+        color: $color-white;
+        max-width: 300px;
+        margin: 50px auto 0 auto;
+    }
+}

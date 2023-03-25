@@ -6,6 +6,7 @@ import ChefInfo from "./ChefInfo/ChefInfo";
 import Awards from "./Awards/Awards";
 import Gallery from "./Gallery/Gallery";
 import FindUs from "./Contact/FindUs";
+import Footer from "./Footer/Footer";
 
 const Content = () => {
     return (
@@ -18,6 +19,7 @@ const Content = () => {
             <Awards />
             <Gallery />
             <FindUs />
+            <Footer />
         </>
     )
 }

@@ -1,0 +1,87 @@
+@import 'variables';
+
+.contact {
+    padding: 50px 0;
+    background-color: $color-dark;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        position: relative;
+    }
+
+    &-bg-abs {
+        position: absolute;
+        width: 400px;
+        opacity: 0.4;
+        z-index: 0;
+    }
+
+    h2 {
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    &-location {
+        margin-top: 20px;
+        color: $color-white;
+        letter-spacing: 1.1px;
+    }
+
+    &-info {
+        z-index: 1;
+    }
+
+    &-hours {
+        font-family: $font-beauty;
+        color: $color-gold;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+
+        &-text {
+            color: $color-white;
+        }
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    &-email {
+        text-align: center;
+        z-index: 1;
+        padding-right: 20px;
+
+        p {
+            margin-top: 20px;
+            color: $color-white;
+            letter-spacing: 1.1px;
+        }
+
+        &-input {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+
+            input {
+                flex: 1 1;
+                height: 50px;
+                padding-left: 15px;
+                border: 2px solid $color-gold;
+                background-color: $color-dark;
+                color: $color-white;
+
+                &:focus {
+                    outline: 1px solid $color-gold;
+                    border: 2px solid $color-gold;
+                }
+
+            }
+
+            button {}
+        }
+    }
+}

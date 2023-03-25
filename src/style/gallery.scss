@@ -109,18 +109,15 @@
         .slider-item {
             position: relative;
 
-
             &:hover {
                 opacity: 0.7;
             }
 
-            .insta {
-                opacity: 0.6;
+            .icon-ig {
                 position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                left: 40%;
+                left: 15px;
             }
+
         }
     }
 
