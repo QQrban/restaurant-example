@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
+import { BsTwitter } from "react-icons/bs";
 import { GiSpoon } from "react-icons/gi";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { BsTwitter } from "react-icons/bs";
 
 
 const Footer = () => {

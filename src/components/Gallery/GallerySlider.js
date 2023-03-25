@@ -1,16 +1,14 @@
-import Slider from "react-slick";
-import dish1 from "../../img/photo/slider-dish-1.jpg";
-import dish2 from "../../img/photo/slider-dish-2.jpg";
-import dish3 from "../../img/photo/slider-dish-3.jpg";
-import dish4 from "../../img/photo/slider-dish-4.jpg";
-import dish5 from "../../img/photo/slider-dish-5.jpg";
-import dish6 from "../../img/photo/slider-dish-6.jpg";
+import Slider from 'react-slick';
+import dish1 from '../../img/photo/slider-dish-1.jpg';
+import dish2 from '../../img/photo/slider-dish-2.jpg';
+import dish3 from '../../img/photo/slider-dish-3.jpg';
+import dish4 from '../../img/photo/slider-dish-4.jpg';
+import dish5 from '../../img/photo/slider-dish-5.jpg';
+import dish6 from '../../img/photo/slider-dish-6.jpg';
 
 const GallerySlider = () => {
 
     const dishes = [dish1, dish2, dish3, dish4, dish5, dish6];
-
-
 
     let settings = {
         infinite: false,

@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container } from 'react-bootstrap';
 import dish from '../../img/photo/awards-photo.jpg'
 import first from '../../img/icons/first.png'
 import second from '../../img/icons/second.png'

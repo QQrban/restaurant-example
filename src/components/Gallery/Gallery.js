@@ -1,5 +1,5 @@
-import { Container } from "react-bootstrap";
-import GallerySlider from "./GallerySlider";
+import { Container } from 'react-bootstrap';
+import GallerySlider from './GallerySlider';
 
 const Gallery = () => {
     return (

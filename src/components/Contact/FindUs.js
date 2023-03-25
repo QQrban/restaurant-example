@@ -1,12 +1,12 @@
-import { Container } from "react-bootstrap"
-import bg from '../../img/photo/about-bg-absolute.png'
+import { Container } from 'react-bootstrap';
+import bg from '../../img/photo/about-bg-absolute.png';
 
 const FindUs = () => {
     return (
         <section id="contact" className="contact">
             <Container className="contact-container">
                 <div className="contact-bg-abs">
-                    <img src={bg} alt="" />
+                    <img src={bg} alt="bg" />
                 </div>
                 <div className="contact-info">
                     <div className="contact-subtitle subtitle">Contact</div>

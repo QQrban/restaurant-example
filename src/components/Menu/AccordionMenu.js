@@ -30,14 +30,14 @@ function AccordionMenu() {
             <Accordion.Item eventKey="0" >
                 <Accordion.Header>Starters</Accordion.Header>
                 <Accordion.Body>
-                    <ul className='menu-items'>
+                    <ul className="menu-items">
                         {starters?.length ? starters.map((starter, i) => (
-                            <li key={i} className='menu-item'>
+                            <li key={i} className="menu-item">
                                 <div className="menu-item-name">
                                     <h4>{starter.name}</h4>
                                     <p>{starter.descr}</p>
                                 </div>
-                                <div className='menu-item-price'>$ {starter.price}</div>
+                                <div className="menu-item-price">$ {starter.price}</div>
                             </li>
                         )) : <p>No Data</p>}
                     </ul>
@@ -46,14 +46,14 @@ function AccordionMenu() {
             <Accordion.Item eventKey="1">
                 <Accordion.Header>Main Courses</Accordion.Header>
                 <Accordion.Body>
-                    <ul className='menu-items'>
+                    <ul className="menu-items">
                         {mains?.length ? mains.map((main, i) => (
-                            <li key={i} className='menu-item'>
+                            <li key={i} className="menu-item">
                                 <div className="menu-item-name">
                                     <h4>{main.name}</h4>
                                     <p>{main.descr}</p>
                                 </div>
-                                <div className='menu-item-price'>$ {main.price}</div>
+                                <div className="menu-item-price">$ {main.price}</div>
                             </li>
                         )) : <p>No Data</p>}
                     </ul>
@@ -62,14 +62,14 @@ function AccordionMenu() {
             <Accordion.Item eventKey="2">
                 <Accordion.Header>Desserts</Accordion.Header>
                 <Accordion.Body>
-                    <ul className='menu-items'>
+                    <ul className="menu-items">
                         {desserts?.length ? desserts.map((dessert, i) => (
-                            <li key={i} className='menu-item'>
+                            <li key={i} className="menu-item">
                                 <div className="menu-item-name">
                                     <h4>{dessert.name}</h4>
                                     <p>{dessert.descr}</p>
                                 </div>
-                                <div className='menu-item-price'>$ {dessert.price}</div>
+                                <div className="menu-item-price">$ {dessert.price}</div>
                             </li>
                         )) : <p>No Data</p>}
                     </ul>
