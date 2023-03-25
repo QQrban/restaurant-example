@@ -18,18 +18,46 @@
     }
 
     .chef-container {
-        // justify-content: center;
         gap: 30px;
     }
 
     .chef-right-block {
         max-width: 600px;
     }
+
+    .awards-text {
+        p {
+            max-width: 450px;
+        }
+    }
+
+
+
+    .gallery-text {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1240px) {
+
+    .gallery-container {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .gallery-slider {
+        width: 70%;
+    }
 }
 
 @media (max-width:1170px) {
     .chef-container {
         justify-content: center;
+    }
+
+    .awards-container {
+        justify-content: center;
+        gap: 65px;
     }
 }
 
@@ -51,6 +79,13 @@
             width: 530px;
         }
     }
+
+    .slick-slide {
+        img {
+            width: 320px;
+            padding-left: 15px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -66,6 +101,17 @@
             }
         }
     }
+
+    .slick-slide {
+
+        img {
+            margin: 0 auto;
+            // min-width: 323px;
+            height: 420px !important;
+            padding: 0;
+
+        }
+    }
 }
 
 @media (max-width: 752px) {
@@ -77,6 +123,25 @@
         p {
             font-size: 13px;
             max-width: 250px;
+        }
+    }
+
+    .awards-left-block {
+        flex-shrink: 1;
+
+        .awards-item {
+            margin-top: 50px;
+        }
+    }
+
+    .slick-slide {
+
+        img {
+            margin: 0 auto;
+            min-width: 200px;
+            height: 350px !important;
+            padding: 0;
+
         }
     }
 }
@@ -104,6 +169,22 @@
             top: 50%;
         }
     }
+
+    .awards-name {
+        font-size: 24px !important;
+    }
+
+    .awards-descr {
+        font-size: 13px;
+    }
+
+    .slick-prev {
+        left: 4% !important;
+    }
+
+    .slick-next {
+        right: 6% !important;
+    }
 }
 
 @media (max-width: 404px) {
@@ -115,6 +196,17 @@
         p {
             font-size: 13px;
             max-width: 130px;
+        }
+    }
+
+    .awards-item {
+        margin-top: 65px !important;
+    }
+
+    .slick-slide {
+        img {
+            min-width: 220px;
+
         }
     }
 }

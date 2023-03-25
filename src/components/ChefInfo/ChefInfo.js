@@ -15,7 +15,7 @@ const ChefInfo = () => {
                     <div className="chef-subtitle subtitle">Meet Our Head Chef</div>
                     <h2>What We Believe In</h2>
                     <IconContext.Provider
-                        value={{ color: 'white', size: '65px' }}
+                        value={{ color: 'white', size: '65px', }}
                     >
                         <RiDoubleQuotesL />
                     </IconContext.Provider>
