@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { useInView } from 'framer-motion';
 import { Container } from 'react-bootstrap';
 import knife from '../../img/photo/knife-about.png';
-import bg from '../../img/photo/about-bg-absolute.png'
+import bg from '../../img/photo/about-bg-absolute.png';
 
 const About = () => {
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
     return (
         <section id="about" className="about">
-            <Container>
+            <Container ref={ref} style={{
+                transform: isInView ? 'none' : "translateX(-200px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.4s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s"
+            }}>
                 <div className="about-content">
                     <div className="about-bg-abs">
                         <img src={bg} alt="bg" />

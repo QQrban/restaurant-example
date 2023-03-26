@@ -1,3 +1,5 @@
+import React, { useRef } from 'react'
+import { useInView } from 'framer-motion';
 import { Container } from 'react-bootstrap';
 import dish from '../../img/photo/awards-photo.jpg'
 import first from '../../img/icons/first.png'
@@ -5,9 +7,20 @@ import second from '../../img/icons/second.png'
 import third from '../../img/icons/third.png'
 
 const Awards = () => {
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
     return (
         <section id="awards" className="awards">
-            <Container className="awards-container">
+            <Container
+                className="awards-container"
+                ref={ref}
+                style={{
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s"
+                }}
+            >
                 <div className="awards-left-block">
                     <div className="awards-subtitle subtitle">Awards & Recognition</div>
                     <h2>Our Achievements</h2>

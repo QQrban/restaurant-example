@@ -1,3 +1,5 @@
+import React, { useRef } from 'react'
+import { useInView } from 'framer-motion';
 import { Container } from 'react-bootstrap';
 import { RiDoubleQuotesL } from 'react-icons/ri';
 import { IconContext } from 'react-icons';
@@ -5,9 +7,20 @@ import chef from '../../img/photo/chef.jpg';
 import signature from '../../img/photo/signature.png';
 
 const ChefInfo = () => {
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
     return (
         <section className="chef">
-            <Container className="chef-container">
+            <Container
+                className="chef-container"
+                ref={ref}
+                style={{
+                    transform: isInView ? 'none' : "translatex(-200px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s"
+                }}>
                 <div className="chef-left-block">
                     <img src={chef} alt="chef" />
                 </div>
