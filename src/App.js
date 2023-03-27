@@ -1,10 +1,28 @@
 import './style/App.scss'
-import Content from './components/Content';
+import {
+    Header,
+    Home,
+    About,
+    Menu,
+    ChefInfo,
+    Awards,
+    Gallery,
+    FindUs,
+    Footer,
+} from './components/index'
 
 function App() {
     return (
         <div className="App">
-            <Content />
+            <Header />
+            <Home />
+            <About />
+            <Menu />
+            <ChefInfo />
+            <Awards />
+            <Gallery />
+            <FindUs />
+            <Footer />
         </div>
     );
 }

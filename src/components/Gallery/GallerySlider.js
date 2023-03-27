@@ -6,34 +6,22 @@ import dish4 from '../../img/photo/slider-dish-4.jpg';
 import dish5 from '../../img/photo/slider-dish-5.jpg';
 import dish6 from '../../img/photo/slider-dish-6.jpg';
 
+
 const GallerySlider = () => {
-
     const dishes = [dish1, dish2, dish3, dish4, dish5, dish6];
-
     let settings = {
-        infinite: false,
+        dots: true,
+        infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        initialSlide: 0,
-        responsive: [
-            {
-                breakpoint: 1084,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 705,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            },
-
-        ]
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        customPaging: function (i) {
+            return (
+                <img src={require(`../../img/photo/slider-dish-${i + 1}.jpg`)} alt="dish" />
+            )
+        },
+        dotsClass: "slick-dots slick-thumb"
     };
 
     return (
@@ -50,3 +38,41 @@ const GallerySlider = () => {
 }
 
 export default GallerySlider
+
+/* const GallerySlider = () => {
+    const dishes = [dish1, dish2, dish3, dish4, dish5, dish6];
+
+    const settings = {
+        customPaging: function (i) {
+            return (
+                <a>
+                    {dishes.map(dish => (
+                        <img key={dish} src={dish} />
+                    ))
+                    }
+                </a>
+            );
+        },
+        dots: true,
+        dotsClass: "slick-dots slick-thumb",
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+    return (
+        <div>
+            <h2>Custom Paging</h2>
+            <Slider {...settings}>
+                {dishes.map(dish => (
+                    <div className="slider-item" key={dish}>
+                        <img src={dish} alt="dish" />
+                    </div>
+                ))}
+            </Slider>
+        </div>
+    );
+}
+
+
+export default GallerySlider */

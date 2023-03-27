@@ -45,9 +45,7 @@
         flex-direction: column;
     }
 
-    .gallery-slider {
-        width: 70%;
-    }
+
 }
 
 @media (max-width:1170px) {
@@ -80,12 +78,7 @@
         }
     }
 
-    .slick-slide {
-        img {
-            width: 320px;
-            padding-left: 15px;
-        }
-    }
+
 
     .footer-social {
         max-width: 350px;
@@ -106,16 +99,7 @@
         }
     }
 
-    .slick-slide {
 
-        img {
-            margin: 0 auto;
-            // min-width: 323px;
-            height: 420px !important;
-            padding: 0;
-
-        }
-    }
 
     .contact-container {
         justify-content: center;
@@ -163,24 +147,10 @@
         }
     }
 
-    .slick-slide {
-
-        img {
-            margin: 0 auto;
-            min-width: 200px;
-            height: 350px !important;
-            padding: 0;
-
-        }
+    .gallery-slider {
+        width: 100%;
     }
 
-    .slick-prev {
-        left: 4% !important;
-    }
-
-    .slick-next {
-        right: 6% !important;
-    }
 
     .contact-container {
         flex-direction: column;
@@ -230,14 +200,6 @@
         font-size: 13px;
     }
 
-    .slick-prev {
-        left: 4% !important;
-    }
-
-    .slick-next {
-        right: 6% !important;
-    }
-
     .footer-contact-us {
         align-self: center;
         text-align: center;
@@ -247,6 +209,24 @@
     .footer-book {
         align-self: center;
         text-align: center;
+    }
+
+    .slick-slide {
+
+        img {
+            margin: 0 auto;
+            width: 460px;
+            height: 600px;
+        }
+    }
+
+    .slick-dots {
+
+        li {
+            width: 40px !important;
+            opacity: 0.5;
+
+        }
     }
 }
 
@@ -267,15 +247,25 @@
     }
 
     .slick-slide {
+
         img {
-            min-width: 220px;
+            margin: 0 auto;
+            width: 230px !important;
+            height: 300px !important;
+        }
+    }
+
+    .slick-dots {
+
+        li {
+            width: 28px !important;
+            opacity: 0.5;
 
         }
     }
 }
 
 @media (max-width: 365px) {
-
 
     .home {
         h1 {
@@ -306,4 +296,6 @@
             width: 100%;
         }
     }
+
+
 }
