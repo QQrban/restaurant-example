@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/restaurant-example/static/css/main.e0fb3472.css",
+    "main.js": "/restaurant-example/static/js/main.5192af47.js",
+    "static/media/video.mp4": "/restaurant-example/static/media/video.8804717e2b5b3358dfa5.mp4",
+    "static/media/background.png": "/restaurant-example/static/media/background.3d421b1b5682e1b67deb.png",
+    "static/media/about-bg-absolute.png": "/restaurant-example/static/media/about-bg-absolute.0e3b55324471622e740b.png",
+    "static/media/knife-about.png": "/restaurant-example/static/media/knife-about.1121c0a5afb62acb31cb.png",
+    "static/media/chef.jpg": "/restaurant-example/static/media/chef.1909bc586cdfee8bf952.jpg",
+    "static/media/slider-dish-1.jpg": "/restaurant-example/static/media/slider-dish-1.286218420e3c639114a0.jpg",
+    "static/media/slider-dish-5.jpg": "/restaurant-example/static/media/slider-dish-5.94612c7cbf7a9fa112ab.jpg",
+    "static/media/slider-dish-2.jpg": "/restaurant-example/static/media/slider-dish-2.85823849ed67c61f6505.jpg",
+    "static/media/slider-dish-3.jpg": "/restaurant-example/static/media/slider-dish-3.68ac687e75a37801a97c.jpg",
+    "static/media/slider-dish-4.jpg": "/restaurant-example/static/media/slider-dish-4.f92502fc97d303d21a85.jpg",
+    "static/media/slider-dish-6.jpg": "/restaurant-example/static/media/slider-dish-6.e9045d82f3c771513e5b.jpg",
+    "static/media/awards-photo.jpg": "/restaurant-example/static/media/awards-photo.55acb2bf55ee2d0bd406.jpg",
+    "static/media/home-salmon.jpg": "/restaurant-example/static/media/home-salmon.1b7a8d83821c3c6c5686.jpg",
+    "static/media/signature.png": "/restaurant-example/static/media/signature.052692ce26c1c51e858b.png",
+    "static/media/second.png": "/restaurant-example/static/media/second.8bbdd51499739653b003.png",
+    "static/media/first.png": "/restaurant-example/static/media/first.361a4bc44b59b55abeda.png",
+    "static/media/third.png": "/restaurant-example/static/media/third.3f7ee934c17dccbd5fc6.png",
+    "static/media/slick.svg": "/restaurant-example/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/restaurant-example/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/restaurant-example/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/restaurant-example/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/restaurant-example/index.html",
+    "main.e0fb3472.css.map": "/restaurant-example/static/css/main.e0fb3472.css.map",
+    "main.5192af47.js.map": "/restaurant-example/static/js/main.5192af47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0fb3472.css",
+    "static/js/main.5192af47.js"
+  ]
+}
