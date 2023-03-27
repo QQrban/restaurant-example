@@ -1,6 +1,7 @@
 import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import salmon from '../../img/photo/home-salmon.jpg'
+import vid from '../../img/video.mp4';
 
 const Home = () => {
 
@@ -10,6 +11,9 @@ const Home = () => {
 
     return (
         <section id="home" className="home">
+            <div className="video">
+                <video src={vid} autoPlay loop muted />
+            </div>
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}

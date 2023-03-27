@@ -1,6 +1,17 @@
 @import 'variables';
 
 @media (max-width: 1433px) {
+
+
+    .video {
+        width: 50%;
+        border-bottom: 20px solid $color-dark;
+
+        video {
+            object-fit: cover !important;
+        }
+    }
+
     .home-left-block {
         margin: 0 auto;
     }

@@ -6,6 +6,8 @@
 
     h2 {
         margin: 30px 0;
+        z-index: 2;
+        position: relative;
 
     }
 
@@ -22,13 +24,14 @@
         gap: 45px;
         margin-top: 19px;
 
-
         .awards-img {
+            z-index: 2;
             max-width: 84px;
         }
 
         .awards-text {
             max-width: 550px;
+            z-index: 2;
 
             h5 {
                 font-family: $font-beauty;
@@ -51,5 +54,9 @@
 
     &-right-block {
         max-width: 550px;
+        z-index: 2;
+
     }
+
+
 }

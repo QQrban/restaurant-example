@@ -6,6 +6,7 @@ import first from '../../img/icons/first.png'
 import second from '../../img/icons/second.png'
 import third from '../../img/icons/third.png'
 
+
 const Awards = () => {
 
     const ref = useRef(null);
@@ -13,6 +14,7 @@ const Awards = () => {
 
     return (
         <section id="awards" className="awards">
+
             <Container
                 className="awards-container"
                 ref={ref}
