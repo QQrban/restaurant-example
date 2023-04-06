@@ -14,10 +14,10 @@ function AccordionMenu() {
                 const categoryStarters = menu.filter(item => item.category === 'starters');
                 setStarters(categoryStarters);
 
-                const categoryMains = menu.filter(item => item.category === 'mains');
+                const categoryMains = menu.filter(item => item.category === 'main');
                 setMains(categoryMains);
 
-                const categoryDesserts = menu.filter(item => item.category === 'desserts');
+                const categoryDesserts = menu.filter(item => item.category === 'dessert');
                 setDesserts(categoryDesserts)
             })
             .catch(err => {

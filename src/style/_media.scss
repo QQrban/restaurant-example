@@ -140,6 +140,7 @@
 
 @media (max-width: 752px) {
     .menu-item-name {
+        max-width: 280px !important;
         h4 {
             font-size: 19px;
         }
@@ -185,6 +186,7 @@
     }
 
     .menu-item-name {
+        max-width: 250px !important;
         p {
             font-size: 13px;
             max-width: 130px;

@@ -9,9 +9,11 @@ const Home = () => {
         document.getElementById('menu').scrollIntoView();
     }
 
+
+
     return (
         <section id="home" className="home">
-            <div className="video">
+            <div className='video'>
                 <video src={vid} autoPlay loop muted />
             </div>
             <motion.div

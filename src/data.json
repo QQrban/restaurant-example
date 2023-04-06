@@ -1,0 +1,92 @@
+[
+  {
+    "category": "starters",
+    "name": "Truffle Mushroom Risotto",
+    "price": "18",
+    "descr": "Creamy Arborio rice cooked with truffle-infused mushroom broth, finished with Parmesan cheese and fresh herbs."
+  },
+  {
+    "category": "starters",
+    "name": "Foie Gras Pate with Fig Jam",
+    "price": "22",
+    "descr": "Rich and velvety foie gras pate served with house-made fig jam, toasted brioche, and a sprinkle of sea salt."
+  },
+  {
+    "category": "starters",
+    "name": "Seared Scallops with Citrus Beurre Blanc",
+    "price": "24",
+    "descr": "Fresh scallops seared to perfection, served on a bed of creamy citrus beurre blanc sauce with a hint of acidity from lemon and orange."
+  },
+  {
+    "category": "starters",
+    "name": "Classic Caesar Salad with Grilled Shrimp",
+    "price": "16",
+    "descr": "Crisp romaine lettuce tossed in Caesar dressing, topped with grilled shrimp, croutons, and shaved Parmesan cheese."
+  },
+  {
+    "category": "starters",
+    "name": "Crispy Fried Calamari with Lemon Aioli",
+    "price": "15",
+    "descr": "Tender calamari rings coated in a crispy batter, deep-fried to golden perfection, and served with tangy lemon aioli dipping sauce."
+  },
+  {
+    "category": "main",
+    "name": "Filet Mignon with Red Wine Reduction",
+    "price": "38",
+    "descr": "Tender and juicy filet mignon steak cooked to the desired level of doneness, served with a rich red wine reduction sauce and accompanied by seasonal vegetables."
+  },
+  {
+    "category": "main",
+    "name": "Pan-Seared Salmon with Lemon Butter Sauce",
+    "price": "32",
+    "descr": "Fresh salmon fillet pan-seared to crispy skin, drizzled with a luscious lemon butter sauce, and served with roasted potatoes and vegetables."
+  },
+  {
+    "category": "main",
+    "name": "Lobster Tail with Garlic Butter",
+    "price": "45",
+    "descr": "Succulent lobster tail broiled with garlic butter, served with drawn butter, lemon wedges, and your choice of side dish."
+  },
+  {
+    "category": "main",
+    "name": "Vegetarian Risotto with Seasonal Vegetables",
+    "price": "26",
+    "descr": "Creamy Arborio rice cooked with a medley of fresh seasonal vegetables, Parmesan cheese, and a touch of truffle oil, topped with crispy fried shallots."
+  },
+  {
+    "category": "main",
+    "name": "Duck Breast with Cherry Port Wine Sauce",
+    "price": "34",
+    "descr": "Pan-seared duck breast cooked to a perfect medium-rare, served with a sweet and tangy cherry port wine sauce, and accompanied by creamy polenta and roasted Brussels sprouts."
+  },
+  {
+    "category": "dessert",
+    "name": "Crème Brûlée with Fresh Berries",
+    "price": "12",
+    "descr": "Classic French dessert with a caramelized sugar crust, creamy vanilla custard, and a garnish of fresh mixed berries."
+  },
+  {
+    "category": "dessert",
+    "name": "Chocolate Lava Cake with Raspberry Coulis",
+    "price": "14",
+    "descr": "Decadent chocolate lava cake with a molten chocolate center, served warm with a tangy raspberry coulis and a dollop of whipped cream."
+  },
+  {
+    "category": "dessert",
+    "name": "Tiramisu with Espresso and Amaretto",
+    "price": "13",
+    "descr": "Classic Italian dessert with layers of coffee-soaked ladyfingers, mascarpone cheese, and a hint of amaretto liqueur, dusted with cocoa powder."
+  },
+  {
+    "category": "dessert",
+    "name": "Lemon Tart with Fresh Blueberries",
+    "price": "11",
+    "descr": "Tangy and sweet lemon tart with a buttery shortbread crust, topped with fresh blueberries and a dusting of powdered sugar."
+  },
+  {
+    "category": "dessert",
+    "name": "Vanilla Bean Panna Cotta with Mixed Berry Compote",
+    "price": "12",
+    "descr": "Silky smooth vanilla bean panna cotta topped with a vibrant mixed berry compote and a sprig of fresh mint."
+  }
+]
